@@ -24,7 +24,7 @@
 
         //Email Settings
         $mail->isHTML(true);
-        $mail->setFrom($email, $name);
+        $mail->setFrom("masterdiscord99@gmail.com");
         $mail->addAddress("masterdiscord99@gmail.com"); //enter you email address
         $mail->Subject = ("$email ($subject)");
         $mail->Body = $body;

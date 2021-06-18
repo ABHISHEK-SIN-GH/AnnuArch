@@ -280,7 +280,7 @@ class PHPMailer
      *
      * @var string
      */
-    public $Host = 'localhost';
+    public $Host = 'localhost,annapurna-architect.herokuapp';
 
     /**
      * The default SMTP server port.
